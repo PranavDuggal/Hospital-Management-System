@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>
-        <h1>Welcome <b>[[${#request.userPrincipal.principal.fullName}]]</b> </h1>
-        <form th:action="@{/logout}" method = "post">
-             <input type="submit" value="Sign Out">
-        </form>
-        <h3><a th:href="@{/list_users}">List All Users</a></h3>
-        </div>
-    </body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:791c6b3249fcabae01a03d4faae03437f3399c59a5a393c58284a2b05cb7b38c
+size 741
